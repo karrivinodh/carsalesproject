@@ -1,0 +1,76 @@
+.f0 {
+    text-align: center;
+}
+
+.f1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:x-small;
+    text-align: center;
+}
+
+.f2, .f3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: x-small;
+}
+
+ul {
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    margin-left: 25%;
+    margin-right: auto;
+  }
+  
+  ul li:before {
+    content: '✓';
+    color: rgb(57, 130, 208);
+  }
+
+  html, body {
+    display: flex;
+    justify-content: center;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+    }
+    form {
+    border: 5px solid #f1f1f1;
+    }
+    input[type=text], input[type=password] {
+    width: 100%;
+    padding: 16px 8px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    }
+    button {
+    background-color: rgb(57, 130, 208);
+    color: white;
+    padding: 14px 0;
+    margin: 10px 0;
+    border: none;
+    cursor: grabbing;
+    width: 100%;
+    }
+    h3 {
+    text-align:center;
+    font-size:18;
+    padding: 16px 0;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    }
+    button:hover {
+    opacity: 0.8;
+    }
+    .formcontainer {
+    text-align: left;
+    margin: 24px 50px 12px;
+    }
+    .container {
+    padding: 16px 0;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    }

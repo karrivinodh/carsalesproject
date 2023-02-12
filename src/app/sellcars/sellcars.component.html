@@ -1,0 +1,107 @@
+<!--<form (ngsubmit)="register()" [formGroup]="registerForm">-->
+    <div class="bg" align="center">
+      <form class="border p-3 rounded-3">
+          <div class="row">
+              <div class="col text-center p-2 mb-3 bg-light">
+                  <span class="fs-3">Add your car details</span>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col mb-3">
+                  <label for="enginenumber" class="form-label">Engine number</label>
+                  <input type="text" class="form-control" id="enginenumber" formControlName="enginenumber" required="">
+              </div>
+              <div class="col mb-3">
+                  <label for="brand" class="form-label">Brand</label>
+                  <input type="text" class="form-control" id="brand" formControlName="brand">
+              </div>
+          </div>
+          <div class="row">
+            <div class="col mb-3">
+                <label for="bodytype" class="form-label">Body type</label>
+                <input type="text" class="form-control" id="bodytype" formControlName="bodytype">
+            </div>
+            <div class="col mb-3">
+                <label for="model" class="form-label">Model</label>
+                <input type="text" class="form-control" id="model" formControlName="model">
+            </div>
+        </div>
+        <div class="row">
+          <div class="col mb-3">
+              <label for="year" class="form-label">Year</label>
+              <input type="text" class="form-control" id="year" formControlName="year">
+          </div>
+          <div class="col mb-3">
+              <label for="fueltype" class="form-label">Fuel type</label>
+              <input type="text" class="form-control" id="fueltype" formControlName="fueltype">
+          </div>
+      </div>
+      <div class="row">
+        <div class="col mb-3">
+            <label for="mileage" class="form-label">Mileage</label>
+            <input type="text" class="form-control" id="mileage" formControlName="mileage">
+        </div>
+        <div class="col mb-3">
+            <label for="ownership" class="form-label">Ownership</label>
+            <input type="text" class="form-control" id="ownership" formControlName="ownership">
+        </div>
+    </div>
+    <div class="row">
+      <div class="col mb-3">
+          <label for="transmission" class="form-label">Transmission</label>
+          <input type="text" class="form-control" id="transmission" formControlName="transmission">
+      </div>
+      <div class="col mb-3">
+          <label for="seatingcapacity" class="form-label">Seating capacity</label>
+          <input type="text" class="form-control" id="seatingcapacity" formControlName="seatingcapacity">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col mb-3">
+          <label for="rto" class="form-label">RTO</label>
+          <input type="text" class="form-control" id="rto" formControlName="rto">
+      </div>
+      <div class="col mb-3">
+          <label for="color" class="form-label">Colour</label>
+          <input type="text" class="form-control" id="color" formControlName="color">
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col mb-3">
+        <label for="kmdriven" class="form-label">KM Driven</label>
+        <input type="text" class="form-control" id="kmdriven" formControlName="kmdriven">
+         
+      </div>
+      <div class="col mb-3">
+        <label for="location" class="form-label">Location</label>
+        <input type="text" class="form-control" id="location" formControlName="location">
+      </div>
+    </div>
+    <div class="row">
+        <div class="col mb-3">
+          <label for="kmdriven" class="form-label">Price</label>
+          <input type="text" class="form-control" id="kmdriven" formControlName="kmdriven">
+           
+        </div>
+        <div class="col mb-3">
+          <label for="location" class="form-label">Is Car Available</label>
+          <input type="text" class="form-control" id="location" formControlName="location">
+        </div>
+      </div>
+    <div class="row">
+      <div class="col-6 offset-3">
+          <div class="d-flex justify-content-center">
+            
+           <button type="button" class="btn btn-primary" (click)="register()" >submit</button>
+                                 
+        <div class="mt-3 text-center">
+          <div>{{message}}</div>
+       
+        </div>
+          </div>
+      </div>
+    </div>
+      </form>
+      </div>
+     

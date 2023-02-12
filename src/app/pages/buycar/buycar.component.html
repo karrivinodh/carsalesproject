@@ -1,0 +1,294 @@
+
+    <header class="section-header">	
+    <section class="header-main">
+      <div class="container">
+        <div class="row gy-3 align-items-center">
+          <div class="col-lg-2 col-sm-4 col-4">
+            <a href="http://therichpost.com" class="navbar-brand">
+              CarShop
+            </a> 
+          </div>
+          <div class="order-lg-last col-lg-5 col-sm-8 col-8">
+            
+          </div> <!-- col end.// -->
+          <div class="col-lg-5 col-md-12 col-12">
+            <form action="#" class="">
+                    <div class="input-group">
+                      <input type="search" class="form-control" style="width:55%" placeholder="Search">
+                      <select class="form-select">
+                        <option value="">All type</option>
+                        <option value="codex">Special</option>
+                        <option value="comments">Only best</option>
+                        <option value="content">Latest</option>
+                      </select>
+                      <button class="btn btn-primary">
+                        <i class="fa fa-search"></i> 
+                      </button>
+                    </div> <!-- input-group end.// -->
+                  </form>
+          </div> <!-- col end.// -->
+          
+        </div> <!-- row end.// -->
+      </div> <!-- container end.// -->
+    </section> <!-- header-main end.// -->
+  
+    <nav class="navbar navbar-light bg-primary border-top navbar-expand-lg">
+      <div class="container">
+        <button class="navbar-toggler border" type="button" data-bs-toggle="collapse" data-bs-target="#navbar_main">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbar_main">
+        </div> <!-- collapse end.// -->
+      </div> <!-- container end.// -->
+    </nav> <!-- navbar end.// -->
+  </header> <!-- section-header end.// -->
+  
+    <section class="padding-y">
+    <div class="container">
+    
+    <div class="row">
+      <aside class="col-lg-3">
+    
+    <button class="btn btn-outline-secondary mb-3 w-100  d-lg-none" data-bs-toggle="collapse" data-bs-target="#aside_filter">Show filter</button>
+    
+    <!-- ===== Card for sidebar filter ===== -->
+    <div id="aside_filter" class="collapse card d-lg-block mb-5">
+    
+      <article class="filter-group">
+      <header class="card-header">
+        <a href="#" class="title" data-bs-toggle="collapse" data-bs-target="#collapse_aside1">
+        <i class="icon-control fa fa-chevron-down"></i>   Filter 
+        </a>
+      </header>
+      <div class="collapse show" id="collapse_aside1">
+        <div class="card-body">
+        <ul class="list-menu">
+          <li><a href="#">Price Range </a></li>
+          <li><a href="#">Brands+Models  </a></li>
+          <li><a href="#">Year </a></li>
+          <li><a href="#">Kms Driven </a></li>
+          <li><a href="#">Fuel Type </a></li>
+          <li><a href="#">Color</a></li>
+          <li><a href="#">Seats </a></li>
+          <li><a href="#">Body Type</a></li>
+        </ul>
+        </div> <!-- card-body.// -->
+      </div> <!-- collapse.// -->
+      </article> <!-- filter-group // -->
+    
+      <article class="filter-group">
+      <header class="card-header">
+        <a href="#" class="title" data-bs-toggle="collapse" data-bs-target="#collapse_aside_brands">
+        <i class="icon-control fa fa-chevron-down"></i>  Brands 
+        </a>
+      </header>
+      <div class="collapse show" id="collapse_aside_brands">
+        <div class="card-body">
+          <label class="form-check mb-2">
+          <input class="form-check-input" type="checkbox" value="" checked>
+          <span class="form-check-label"> Maruthi Suzuki </span>
+          <b class="badge rounded-pill bg-gray-dark float-end">120</b>
+          </label> <!-- form-check end.// -->
+    
+          <label class="form-check mb-2">
+          <input class="form-check-input" type="checkbox" value="" checked>
+          <span class="form-check-label"> Toyota </span>
+          <b class="badge rounded-pill bg-gray-dark float-end">15</b>
+          </label> <!-- form-check end.// -->
+    
+          <label class="form-check mb-2">
+          <input class="form-check-input" type="checkbox" value="" checked>
+          <span class="form-check-label"> Skoda </span>
+          <b class="badge rounded-pill bg-gray-dark float-end">35</b>
+          </label> <!-- form-check end.// -->
+    
+          <label class="form-check mb-2">
+          <input class="form-check-input" type="checkbox" value="" checked>
+          <span class="form-check-label"> Honda Brio</span>
+          <b class="badge rounded-pill bg-gray-dark float-end">89</b>
+          </label> <!-- form-check end.// -->
+    
+          <label class="form-check mb-2">
+          <input class="form-check-input" type="checkbox" value="">
+          <span class="form-check-label"> Ford</span>
+          <b class="badge rounded-pill bg-gray-dark float-end">30</b>
+          </label> <!-- form-check end.// -->
+    
+          <label class="form-check mb-2">
+          <input class="form-check-input" type="checkbox" value="">
+          <span class="form-check-label"> Hyundai </span>
+          <b class="badge rounded-pill bg-gray-dark float-end">30</b>
+          </label> <!-- form-check end.// -->
+        </div> <!-- card-body .// -->
+      </div> <!-- collapse.// -->
+      </article>
+    
+      
+    
+      
+    
+      
+    
+    </div> <!-- card.// -->
+   
+    
+      </aside> <!-- col .// -->
+      <main class="col-lg-9">
+        
+      <header class="d-sm-flex align-items-center border-bottom mb-4 pb-3">
+        
+        <div class="ms-auto ">
+          <select class="form-select d-inline-block w-auto me-1">
+            <option value="0">Best match</option>
+            <option value="1">Recommended</option>
+            <option value="2">High rated</option>
+            <option value="3">Randomly</option>
+          </select>
+          <div class="btn-group">
+          <a href="#" class="btn btn-light" data-bs-toggle="tooltip" title="List view"> 
+            <i class="fa fa-bars"></i>
+          </a>
+          <a href="#" class="btn btn-light active" data-bs-toggle="tooltip" title="Grid view"> 
+            <i class="fa fa-th"></i>
+          </a>
+          </div> <!-- btn-group end.// -->
+        </div>
+      </header>
+    
+      <div class="column">
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <figure class="card card-product-grid">
+          <div class="img-wrap"> 
+            <img src="https://th.bing.com/th/id/OIP.HQi0drN3qwrFErWov84TIQHaFj?pid=ImgDet&rs=1"> 
+          </div>
+          <figcaption class="info-wrap border-top">
+            <strong class="title mb-2">Ford Figo Duratec Petrol ZXI 1.2 </strong>
+            <div class="price-wrap">
+            <strong class="price">₹3.64 Lakh</strong>
+            </div> <!-- price-wrap.// -->
+            
+            <p class="title mb-3"> 27.7K km Petrol </p>
+            <p class="title mb-4"> EMI from ₹9,811/mo </p>
+            
+            <a href="cardetails"><button type="button" class="btn btn-primary">View Car Details</button></a>
+            <a href="#" class="btn btn-light btn-icon"> <i class="fa fa-heart"></i> </a>
+          </figcaption>
+          </figure>
+        </div> <!-- col end.// -->
+    
+        <div class="col-lg-4 col-md-4 col-sm-4">
+            <figure class="card card-product-grid">
+            <div class="img-wrap"> 
+              <img src="https://th.bing.com/th/id/OIP.WAGxcwPZ8W-ljczAOn-33QHaE7?pid=ImgDet&rs=1"> 
+            </div>
+            <figcaption class="info-wrap border-top">
+              <strong class="title mb-2">Hyundai i20 </strong>
+              <div class="price-wrap">
+              <strong class="price">₹4.55 Lakh</strong>
+              </div> <!-- price-wrap.// -->
+              
+              <p class="title mb-3"> 55.9K km Petrol </p>
+              <p class="title mb-4"> EMI from ₹8,282/mo </p>
+              
+              <a href="cardetails1"><button type="button" class="btn btn-primary">View Car Details</button></a>
+              <a href="#" class="btn btn-light btn-icon"> <i class="fa fa-heart"></i> </a>
+            </figcaption>
+            </figure>
+          </div> <!-- col end.// -->
+    
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <figure class="card card-product-grid">
+            <div class="img-wrap"> 
+              <img src="https://th.bing.com/th/id/OIP.1cY3qkGsz-fnNU5wN40LrAHaFj?pid=ImgDet&rs=1"> 
+            </div>
+            <figcaption class="info-wrap border-top">
+              <strong class="title mb-2">Renault Kwid RXT</strong>
+              <div class="price-wrap">
+              <strong class="price">₹6.15 Lakh</strong>
+              </div> <!-- price-wrap.// -->
+              
+              <p class="title mb-3"> 14.2K km Petrol </p>
+              <p class="title mb-4"> EMI from ₹11,194/mo </p>
+              
+              <a href="cardetails2"><button type="button" class="btn btn-primary">View Car Details</button></a>
+              <a href="#" class="btn btn-light btn-icon"> <i class="fa fa-heart"></i> </a>
+            </figcaption>
+            </figure>
+          </div> <!-- col end.// -->
+    
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <figure class="card card-product-grid">
+            <div class="img-wrap"> 
+              <img src="https://th.bing.com/th/id/OIP.XuPkzUrpx3n57t7eaPO4dwHaE6?pid=ImgDet&rs=1"> 
+            </div>
+            <figcaption class="info-wrap border-top">
+              <strong class="title mb-2">Maruthi Suzuki Cias ZXI+ AT</strong>
+              <div class="price-wrap">
+              <strong class="price">₹7.32 Lakh</strong>
+              </div> <!-- price-wrap.// -->
+              
+              <p class="title mb-3"> 50.9K km Petrol </p>
+              <p class="title mb-4"> EMI from ₹13,324/mo </p>
+              
+              <a href="cardetails"><button type="button" class="btn btn-primary">View Car Details</button></a>
+              <a href="#" class="btn btn-light btn-icon"> <i class="fa fa-heart"></i> </a>
+            </figcaption>
+            </figure>
+          </div> <!-- col end.// -->
+    
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <figure class="card card-product-grid">
+            <div class="img-wrap"> 
+              <img src="https://cdn.autoportal.com/img/new-cars-gallery/tata/hexa/exterior/65364d99/tata-hexa-65364d99-500x375.jpg"> 
+            </div>
+            <figcaption class="info-wrap border-top">
+              <strong class="title mb-2">Tata Hexa XMA</strong>
+              <div class="price-wrap">
+              <strong class="price">₹13.99 Lakh</strong>
+              </div> <!-- price-wrap.// -->
+              
+              <p class="title mb-3"> 23.6K km Diesel </p>
+              <p class="title mb-4"> EMI from ₹23,324/mo </p>
+              
+              <a href="#" class="btn btn-primary">View Car Details</a>
+              <a href="#" class="btn btn-light btn-icon"> <i class="fa fa-heart"></i> </a>
+            </figcaption>
+            </figure>
+          </div> <!-- col end.// -->
+    
+        
+        
+    
+        
+    
+        
+      </div> <!-- row end.// -->
+    
+      <hr>
+  <footer class="d-flex mt-4">
+                
+                  <nav class="ms-3">
+                      <ul class="pagination">
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item active" aria-current="page">
+                          <span class="page-link">2</span>
+                      </li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item">
+                          <a class="page-link" href="#">Next</a>
+                      </li>
+                      </ul>
+                  </nav>
+                  </footer>
+  
+                
+  
+  
+  
+                  </main>
+                  </div> 
+  
+                  </div> 
+                  </section>
+                

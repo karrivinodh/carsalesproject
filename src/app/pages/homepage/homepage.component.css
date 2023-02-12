@@ -1,0 +1,34 @@
+.banner{
+    background-image: url('../../../assets/images/car.jpg');
+    height: 400px; 
+    background-position: center;
+    background-size: cover;
+    
+}
+*{
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+h1{
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium';
+}
+.container{
+    text-align: center;
+    align-content: center;
+}
+.bg{
+   background-image:linear-gradient(grey,white)
+}
+.image{
+    margin-left: 130%;
+}
